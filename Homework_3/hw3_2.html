@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Homework3_2</title>
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+        body{
+            margin: 0;
+        }
+        #section1{
+            width: 100vw;
+            height: 100vh;
+            background: #d94b4b;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+        }
+        #section2{
+            width: 100vw;
+            height: 100vh;
+            background: #48b1be;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        #section3{
+            width: 100vw;
+            height: 100vh;
+            background: #74ce5b;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        p{
+            text-align: center;
+            width: 80vw;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+<div id="section1">
+<h1>Section Title</h1>
+   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam architecto aspernatur atque, consectetur corporis culpa cumque debitis dicta distinctio dolore doloribus in incidunt ipsam laboriosam, magnam molestias necessitatibus nemo nihil nisi numquam odit officia pariatur porro praesentium provident quas quidem quis quo similique soluta temporibus totam ullam veritatis vitae.</p>
+   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam architecto aspernatur atque, consectetur corporis culpa cumque debitis dicta distinctio dolore doloribus in incidunt ipsam laboriosam, magnam molestias necessitatibus nemo nihil nisi numquam odit officia pariatur porro praesentium provident quas quidem quis quo similique soluta temporibus totam ullam veritatis vitae.</p>
+    <a href="#section2">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB8ElEQVR4nO3bP0hVYRzG8a+KogiiBCkoKA4ZDhYNukjpoA2CtthUDkHRklMNRU5mSw5JgoO25KZDoE0FSbWU4FDgoBAYBRoEFoRRaIVwLjj07/5+3XvOeXw/8I4Oz3c53nveC0EQBEGQa2XAjyxPKUJqDAGqEXLYEKAJIW2GAK0IOWkI0I2Q04YA/Qi5YAhwHiFXDAEuI+SGIcAwQsYNAe4gZNoQ4B5C5g0B5hDy1BDgCUJeGQK8RMgbQ4A1hHwyBPiIiEJgxxDge/S3qVdlGJ85lQhocASoR8BRR4AjCDjhCHAcAX2OAL0IGHAEOIuAQUeASwgYcgS4joBRR4BbCJhyBJhEwKwjwAwCHjkCPETAoiPACwSsOgKsIOC9I8AGCTXmGJWrczufAQqB+wkYnTkPgCJiuPXxPAHjl4ByYrz5sRbj+HdAHTFrBjZjGL/7RWsLCdEBfM3j+G9AFwlzLo8BLpJQN/MwfoQEKzC+Cc7mw1Hi3xWUAI9zMP5Zmi5PHoj+j/9f418DB0mZRufngMz5ABwipdqBL47xu4/WTlKu3/Fy9AwirhkCXEXMRBbj7yKoOPqO72/jF6JHqaSK6O7P78Yvq9wJ+JNa4O0vxq+r3Af4F8eAz3vGb0W/KdhXeoDt6BF5in1qMDpBEATE4SeAYV0LFUW68gAAAABJRU5ErkJggg==">
+    </a>
+</div>
+<div id="section2">
+    <a href="#section1">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAACEklEQVR4nO3aP0jUYRzH8XcnmhKYEJSgeOBQ0JAQVEtFDrWI4pCbLmHQkDXYUjolOeRiNQSFQzbpIkaLN/gHFxsCHQJviA4KSghKkKLIlB/cAyIi3ve5+/2e53vPC77jDZ/3cAe/+0EQBEFy7gJ3KFNtwD9gE+ikzJwFNoCt/P0CLlAmGoDPO8ab+wqkUa4WWNljvLkPQB1KVQKZfcabmwOqUOj5AcabG0OZBwWMN3cfJbryP3WFBvgPdOO5i8BvwXhzf4BWPNUMrFmMN/cdOIlnjgHZIow39xE4jieqgNkijje3CFTjuEPA6xKMNzcJpHDYcAnHm3uEo27EMN7cLRxzJf+TFVeAv8BVHHEa+BHjeHPrwJmkx9cDuQTGm/sCNCY1vgZYSnC8uffAkbjHp4ApB8abewtUxBngiQOjd98ojvpmMSp6TOa9rEWAVRR4ZxEg+pL1XsYiwAwKTFoEmECBlxYBXqDAiEWAxygwaBFgAAX6LALcRoEeiwDePxaPdFgEaEeByxYBLqFAi0WAxB94FEPaIkATCtRZBDiKAinhn6Obrv8HUIifggDRg1Y1coIAn1BkRRBgGUUWBAHmUeSNIMA0iowLArxCkWeCAE9RZEgQ4CGK3BME6EeRm4IAvSjSJQhwHUWuCQI48wJEMZwXBDiHIqcEAbx7OXI/JwQBvHkx8iAOCwJEnwmCIAgCSmcbs51czBhXrIMAAAAASUVORK5CYII=">
+    </a>
+    <h1>Section Title</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam architecto aspernatur atque, consectetur corporis culpa cumque debitis dicta distinctio dolore doloribus in incidunt ipsam laboriosam, magnam molestias necessitatibus nemo nihil nisi numquam odit officia pariatur porro praesentium provident quas quidem quis quo similique soluta temporibus totam ullam veritatis vitae.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam architecto aspernatur atque, consectetur corporis culpa cumque debitis dicta distinctio dolore doloribus in incidunt ipsam laboriosam, magnam molestias necessitatibus nemo nihil nisi numquam odit officia pariatur porro praesentium provident quas quidem quis quo similique soluta temporibus totam ullam veritatis vitae.</p>
+    <a href="#section3">
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB8ElEQVR4nO3bP0hVYRzG8a+KogiiBCkoKA4ZDhYNukjpoA2CtthUDkHRklMNRU5mSw5JgoO25KZDoE0FSbWU4FDgoBAYBRoEFoRRaIVwLjj07/5+3XvOeXw/8I4Oz3c53nveC0EQBEGQa2XAjyxPKUJqDAGqEXLYEKAJIW2GAK0IOWkI0I2Q04YA/Qi5YAhwHiFXDAEuI+SGIcAwQsYNAe4gZNoQ4B5C5g0B5hDy1BDgCUJeGQK8RMgbQ4A1hHwyBPiIiEJgxxDge/S3qVdlGJ85lQhocASoR8BRR4AjCDjhCHAcAX2OAL0IGHAEOIuAQUeASwgYcgS4joBRR4BbCJhyBJhEwKwjwAwCHjkCPETAoiPACwSsOgKsIOC9I8AGCTXmGJWrczufAQqB+wkYnTkPgCJiuPXxPAHjl4ByYrz5sRbj+HdAHTFrBjZjGL/7RWsLCdEBfM3j+G9AFwlzLo8BLpJQN/MwfoQEKzC+Cc7mw1Hi3xWUAI9zMP5Zmi5PHoj+j/9f418DB0mZRufngMz5ABwipdqBL47xu4/WTlKu3/Fy9AwirhkCXEXMRBbj7yKoOPqO72/jF6JHqaSK6O7P78Yvq9wJ+JNa4O0vxq+r3Af4F8eAz3vGb0W/KdhXeoDt6BF5in1qMDpBEATE4SeAYV0LFUW68gAAAABJRU5ErkJggg==">
+    </a>
+</div>
+<div id="section3">
+    <a href="#section2">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAACEklEQVR4nO3aP0jUYRzH8XcnmhKYEJSgeOBQ0JAQVEtFDrWI4pCbLmHQkDXYUjolOeRiNQSFQzbpIkaLN/gHFxsCHQJviA4KSghKkKLIlB/cAyIi3ve5+/2e53vPC77jDZ/3cAe/+0EQBEFy7gJ3KFNtwD9gE+ikzJwFNoCt/P0CLlAmGoDPO8ab+wqkUa4WWNljvLkPQB1KVQKZfcabmwOqUOj5AcabG0OZBwWMN3cfJbryP3WFBvgPdOO5i8BvwXhzf4BWPNUMrFmMN/cdOIlnjgHZIow39xE4jieqgNkijje3CFTjuEPA6xKMNzcJpHDYcAnHm3uEo27EMN7cLRxzJf+TFVeAv8BVHHEa+BHjeHPrwJmkx9cDuQTGm/sCNCY1vgZYSnC8uffAkbjHp4ApB8abewtUxBngiQOjd98ojvpmMSp6TOa9rEWAVRR4ZxEg+pL1XsYiwAwKTFoEmECBlxYBXqDAiEWAxygwaBFgAAX6LALcRoEeiwDePxaPdFgEaEeByxYBLqFAi0WAxB94FEPaIkATCtRZBDiKAinhn6Obrv8HUIifggDRg1Y1coIAn1BkRRBgGUUWBAHmUeSNIMA0iowLArxCkWeCAE9RZEgQ4CGK3BME6EeRm4IAvSjSJQhwHUWuCQI48wJEMZwXBDiHIqcEAbx7OXI/JwQBvHkx8iAOCwJEnwmCIAgCSmcbs51czBhXrIMAAAAASUVORK5CYII=">
+    </a>
+    <h1>Section Title</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam architecto aspernatur atque, consectetur corporis culpa cumque debitis dicta distinctio dolore doloribus in incidunt ipsam laboriosam, magnam molestias necessitatibus nemo nihil nisi numquam odit officia pariatur porro praesentium provident quas quidem quis quo similique soluta temporibus totam ullam veritatis vitae.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam architecto aspernatur atque, consectetur corporis culpa cumque debitis dicta distinctio dolore doloribus in incidunt ipsam laboriosam, magnam molestias necessitatibus nemo nihil nisi numquam odit officia pariatur porro praesentium provident quas quidem quis quo similique soluta temporibus totam ullam veritatis vitae.</p>
+</div>
+</body>
+</html>
