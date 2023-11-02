@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Homework4_4</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            background-color: #138585;
+            padding-top: 20vh;
+        }
+        main{
+            overflow: hidden;
+            border-radius: 2%;
+            width: 60vw;
+            height: 60vh;
+            background-color: #abf177;
+        }
+        header{
+            margin-top: 3vh;
+            overflow: hidden;
+            width: 100%;
+            height: 8vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        form{
+            width: 100%;
+            height: 40vh;
+            margin: 2%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: flex-start;
+            flex-direction: column;
+
+        }
+        h1{
+            color: #e70000;
+        }
+
+    </style>
+</head>
+<body>
+<main>
+    <header>
+<h1>Заповніть поля анкети<br></h1>
+    </header>
+    <form>
+        <div>
+        <label for="name">Ваше ім'я: </label>
+        <input type="text" id="name" name="username" required>
+        </div>
+        <div>
+        <label for="name">Ваше прізвище: </label>
+        <input type="text" id="surname" name="surname" required>
+        </div>
+        <div>
+            <label>Ваша стать:</label>
+            <label> <input type="radio" name="gender" value="female"> Жіноча </label>
+
+            <label> <input type="radio" name="gender" value="male"> Чоловіча </label>
+        </div>
+        <label>Послугами якої сотової компанії Ви користуєтеся?</label>
+        <div>
+            <label>
+                KyivStar <input type="checkbox" name="newsletter">
+            </label>
+            <label>
+                MTS <input type="checkbox" name="newsletter">
+            </label>
+            <label>
+               Life:) <input type="checkbox" name="newsletter">
+            </label>
+            <label>
+                PeopleNet <input type="checkbox" name="newsletter">
+            </label>
+            <label>
+                Utel <input type="checkbox" name="newsletter">
+            </label>
+        </div>
+        <div style="margin-bottom: 4vh">
+            <input type="submit" value="Надіслати анкету">
+            <input type="reset" value="Очистити бланк">
+        </div>
+    </form>
+</main>
+</body>
+</html>
