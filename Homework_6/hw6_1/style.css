@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+}
+header{
+    height: 30vh;
+    width: 100vw;
+    background-color: chocolate;
+}
+main{
+    height: 70vh;
+    width: 80vw;
+    background-color: brown;
+}
+footer{
+    height: 70vh;
+    width: 20vw;
+    background-color: #09164f;
+}
+div{
+    display: flex;
+}

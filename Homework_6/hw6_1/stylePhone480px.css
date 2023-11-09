@@ -1,0 +1,23 @@
+@media screen and (max-device-width: 480px){
+    body{
+        margin: 0;
+    }
+    header{
+        height: 20vh;
+        width: 100vw;
+        background-color: chocolate;
+    }
+    main{
+        height: 60vh;
+        width: 100vw;
+        background-color: brown;
+    }
+    footer{
+        height: 20vh;
+        width: 100vw;
+        background-color: #09164f;
+    }
+    div{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,42 @@
+/*body{*/
+/*    margin: 0;*/
+/*}*/
+header{
+    width: 98.8vw;
+    height: 29vh;
+    border-radius: 10px;
+    margin: 0.1vw;
+    background-color: brown;
+}
+.wrapper1{
+    display: flex;
+
+}
+.wrapper2{
+    display: flex;
+    flex-direction: column;
+}
+.wrapper3{
+    display: flex;
+}
+main{
+    width: 68.7vw;
+    height: 34vh;
+    border-radius: 10px;
+    margin: 0.1vw;
+    background-color: #b27d33;
+}
+.block{
+    width: 22.77vw;
+    height: 34vh;
+    border-radius: 10px;
+    margin: 0.1vw;
+    background-color: #0d3970;
+}
+footer{
+    width: 29.5vw;
+    height: 68.2vh;
+    border-radius: 10px;
+    margin: 0.2vw;
+    background-color: #74ce5b;
+}

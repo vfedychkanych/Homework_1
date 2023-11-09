@@ -1,0 +1,47 @@
+@media screen and (max-device-width: 480px) {
+    header {
+        width: 96vw;
+        height: 25vh;
+        border-radius: 10px;
+        margin: 0.1vw;
+        background-color: brown;
+    }
+
+    .wrapper1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .wrapper2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .wrapper3 {
+        display: flex;
+    }
+
+    main {
+        width: 96vw;
+        height: 30vh;
+        border-radius: 10px;
+        margin: 0.1vw;
+        background-color: #b27d33;
+    }
+
+    .block {
+        width: 32.2vw;
+        height: 20vh;
+        border-radius: 10px;
+        margin: 0.1vw;
+        background-color: #0d3970;
+    }
+
+    footer {
+        width: 96vw;
+        height: 22vh;
+        border-radius: 10px;
+        margin: 0.1vw;
+        background-color: #74ce5b;
+    }
+}
