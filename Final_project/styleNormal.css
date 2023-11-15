@@ -412,6 +412,8 @@ margin-top: 5vh;
     display: flex;
 }
 footer{
+    display: flex;
+    flex-direction: column;
     box-sizing:border-box;
     padding: 0 8.3vw 10.5vh 8.3vw;
     width: 100vw;
@@ -424,7 +426,7 @@ footer>main{
 }
 footer>main>div{
     width: 20vw;
-    height: 81.5vh;
+    height: 74.5vh;
 }
 footer>main>div>h6{
     margin: 5vh 0 2vh 0;
@@ -443,4 +445,9 @@ footer>main>div>p{
     font-style: normal;
     font-weight: 400;
     line-height: 24px; /* 150% */
+}
+footer>div{
+    margin: 0;
+    width: 80vw;
+    border-top: 1px solid #99A2AA;
 }
