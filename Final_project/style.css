@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Rubik:wght@300;700&display=swap');
+
+body{
+    box-sizing:border-box;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    /*1440 1024*/
+}
+.mainHeader{
+    box-sizing:border-box;
+    padding: 2.5vh 77vw 1.5vh 9.3vw;
+    display: flex;
+    width: 100vw;
+    height: 10.789vh;
+    align-items: center;
+}
+.secondaryHeader{
+    box-sizing:border-box;
+    display: inline-flex;
+    width: 100vw;
+    height: 5.85vh;
+    padding: 0 46.6vw 0 9.3vw;
+    align-items: center;
+    gap: 2.05vw;
+}
+.textSecondaryHeader{
+    color: #99A2AA;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px; /* 375% */
+}
+.tabpanel{
+    box-sizing:border-box;
+    width: 100vw;
+    height: 57.945vh;
+    display: inline-flex;
+    padding:  0 51vw 21.4vh 9.3vw;
+    background: #FEC524;
+}
+.slider-item-content{
+    padding-top: 2vh;
+    box-sizing:border-box;
+    width: 39.6vw;
+    height: 22.4vh;
+    background: #FEC524;
+}
+.tabpanelH2{
+    color: #FFF;
+    font-family: 'Rubik', sans-serif;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 136.364% */
+}
+.tabpanelP{
+    margin-top: 6vh;
+    color: #0E2F4B;
+    width: 23vw;
+    height: 3vh;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 187.5% */
+}
+.tabpanelwrap_1{
+    box-sizing:border-box;
+    position: absolute;
+    top: 58vh;
+    display: flex;
+    flex-direction: column;
+    width: 83vw;
+    height: 27vh;
+    /*align-items: center;*/
+}
+.tabpanelButtons>a{
+    color: #99A2AA;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 125% */
+}
+.tabpanelButtons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing:border-box;
+    padding: 2vh 3.5vw 2vh 3.5vw;
+    margin-top: 4vh;
+    margin-right: 3vw;
+    width: 18.75vw;
+    height: 9.8vh;
+    /*gap: 23.93px;*/
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 3px 35px 0 rgba(95, 98, 102, 0.17);
+
+}
+.tabpanelInput{
+    color: #757575;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.04vh;
+    width: 21.5vw;
+    height: 9vh;
+    display: inline-flex;
+    padding: 0 16vw 0 2vw;
+    align-items: center;
+    border-radius: 10px;
+    border: none;
+}
+
